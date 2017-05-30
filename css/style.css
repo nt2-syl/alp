@@ -9828,16 +9828,16 @@ a.icon-after .glyphicon {
 
 /* line 10, ../sass/style.scss */
 a {
-  color: purple;
+  color: #337ab7;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 .menu.nav.navbar-nav {
   clear: both;
   z-index: 999;
 }
 
-/* line 19, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 .navbar-default .navbar-nav > li > a {
   z-index: 999;
 }
