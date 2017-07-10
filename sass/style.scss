@@ -9,7 +9,11 @@
 
 a {
   color: #337ab7;
+  &:hover {
+  	color: #333;
+  }
 }
+
 .menu.nav.navbar-nav {
   z-index: 999;
 }
