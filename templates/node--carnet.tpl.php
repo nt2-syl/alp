@@ -80,7 +80,12 @@
  */
 ?>
 <hr />
-  <?php print render($content['field_image_fond']); ?>
+    <?php 
+    $field = field_get_items('node', $node, 'field_image_fond');
+    print $field;
+    $image_url = image_style_url('large', $field[0]['uri']);
+    print $image_url;
+     ?>
 <hr />
 
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
@@ -88,13 +93,7 @@
   <header>
     <?php print render($content['field_resume']); ?>
 
-    <?php 
-    $field = field_get_items('node', $node, 'field_image_fond');
-    print $field;
-    $image_url = image_style_url('field_image_fond', $field[0]['uri']);
-    print $image_url;
 
-     ?>
 
     <?php print render($title_prefix); ?>
     <?php if (!$page && !empty($title)): ?>
