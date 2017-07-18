@@ -79,10 +79,12 @@
  * @ingroup templates
  */
 ?>
+      <?php if (!empty($title)): ?>
+        <h1 class="page-header"><?php print $title; ?></h1>
+      <?php endif; ?>
 <hr />
     <?php 
     $field = field_get_items('node', $node, 'field_image_fond');
-    print $field;
     $image_url = image_style_url('large', $field[0]['uri']);
     print $image_url;
      ?>
