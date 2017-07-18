@@ -90,7 +90,9 @@
 
     <?php 
     $field = field_get_items('node', $node, 'field_image_fond');
-    $image_url = image_style_url('landingpage_slider', $field[0]['uri']);
+    print $field;
+    $image_url = image_style_url('field_image_fond', $field[0]['uri']);
+    print $image_url;
 
      ?>
 
