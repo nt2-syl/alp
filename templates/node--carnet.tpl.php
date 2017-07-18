@@ -79,14 +79,20 @@
  * @ingroup templates
  */
 ?>
-
-
+<hr />
+  <?php print render($content['field_image_fond']); ?>
+<hr />
 
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
   <header>
-  <?php print render($content['field_image_fond']); ?>
     <?php print render($content['field_resume']); ?>
+
+    <?php 
+    $field = field_get_items('node', $node, 'field_image_fond');
+    $image_url = image_style_url('landingpage_slider', $field[0]['uri']);
+
+     ?>
 
     <?php print render($title_prefix); ?>
     <?php if (!$page && !empty($title)): ?>
