@@ -79,7 +79,9 @@
  * @ingroup templates
  */
 ?>
-<h1>test</h1>
+
+<?php $node->getField('field_image_fond'); ?>
+
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
   <header>
