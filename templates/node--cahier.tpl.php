@@ -81,7 +81,7 @@
 ?>
       <?php if (!empty($title)): ?>
       <?php 
-        $field = field_get_items('node', $node, 'field_image_fond');
+        $field = field_get_items('node', $node, 'field_image');
         $image_url = image_style_url('large', $field[0]['uri']);
      ?>
       <div style='background-image:url("<?php print $image_url ?>");'>
