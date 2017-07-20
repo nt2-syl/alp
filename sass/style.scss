@@ -10,12 +10,11 @@
 // Color 
 $mainColor : #3B495A;
 
-a {
-  color: $mainColor;
-  &:hover {
-  	color: #333;
-  }
+/*=== RESET===*/
+body.toolbar-drawer {
+    padding-top: 0px !important;
 }
+
 /*=== TITLE & GENERAL===*/
 h1, h2, h3 {
 	font-family: "brandon-grotesque",sans-serif;
@@ -27,6 +26,12 @@ p {
 	font-family: "adelle",serif;
 	font-size: 1.5em;
 }
+a {
+  color: $mainColor;
+  &:hover {
+  	color: #333;
+  }
+}
 
 /*=== END TITLE ===*/
 
@@ -35,18 +40,22 @@ p {
 	background-color:$mainColor;
 	font-family: "brandon-grotesque",sans-serif;
 }
-
-
 .navbar-default {
 	background-color:$mainColor;
 	border-color: $mainColor;
 	.navbar-nav  > li > a {
 		color:white;
 		font-size: 1.3em;
+		  &:hover {
+		  	color: white;
+		  }
 	}
 	.navbar-brand {
 		color:white;
 		font-size: 1.3em;
+	}
+	.logo img {
+		width:50px;
 	}
 }
 .menu.nav.navbar-nav {
