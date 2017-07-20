@@ -80,15 +80,15 @@
  */
 ?>
       <?php if (!empty($title)): ?>
-        <h1 class="page-header"><?php print $title; ?></h1>
-      <?php endif; ?>
-<hr />
-    <?php 
-    $field = field_get_items('node', $node, 'field_image_fond');
-    $image_url = image_style_url('large', $field[0]['uri']);
-    print $image_url;
+      <?php 
+        $field = field_get_items('node', $node, 'field_image_fond');
+        $image_url = image_style_url('large', $field[0]['uri']);
      ?>
-<hr />
+      <div style='background-image:url("<?php print $image_url ?>");'>
+        <h1 class="page-header"><?php print $title; ?></h1>
+      </div>
+      <?php endif; ?>
+
 
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
