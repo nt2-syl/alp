@@ -9,7 +9,8 @@
 
 // Color 
 $mainColor : #3B495A;
-
+$mainFont : "brandon-grotesque";
+$subFont : "adelle";
 /*=== RESET===*/
 body.toolbar-drawer {
     padding-top: 0px !important;
@@ -17,12 +18,12 @@ body.toolbar-drawer {
 
 /*=== TITLE & GENERAL===*/
 h1, h2, h3 {
-	font-family: "brandon-grotesque",sans-serif;
+	font-family: $mainFont,sans-serif;
 }
 p {
-	font-family: "adelle",serif;
+	font-family: $subFont,serif;
 }
-.field_title {
+.field_title, .views-field-title {
 	font-family: "adelle",serif;
 	font-size: 1.5em;
 }
