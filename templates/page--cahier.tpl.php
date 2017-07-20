@@ -153,6 +153,7 @@
       </div>  <!-- /content-top-->
     <?php endif; ?>
 
+  <div class="container">
   <div class="row">
 
     <?php if (!empty($page['sidebar_first'])): ?>
@@ -187,6 +188,7 @@
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
 
+  </div>
   </div>
 </div>
 
