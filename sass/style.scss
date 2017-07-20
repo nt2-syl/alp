@@ -13,6 +13,20 @@ a {
   	color: #333;
   }
 }
+/*=== TITLE ===*/
+h1, h2, h3 {
+	font-family: "brandon-grotesque",sans-serif;
+}
+p {
+	font-family: "adelle",serif;
+}
+/*=== END TITLE ===*/
+
+/*=== NAVBAR ===*/
+.navbar-warpper {
+	background-color:#3B495A;
+	font-family: "brandon-grotesque",sans-serif;
+}
 
 .menu.nav.navbar-nav {
   z-index: 999;
@@ -24,6 +38,8 @@ a {
 .navbar-nav li a {
 	font-size:1em;
 }
+/*=== END NAVBAR ===*/
+
 
 /**/
 /**/
