@@ -28,6 +28,14 @@ p {
 	font-family: "brandon-grotesque",sans-serif;
 }
 
+
+.navbar-default {
+	background-color:#3B495A;
+	border-color: #3B495A;
+	.navbar-nav  > li > a {
+		color:white;
+	}
+}
 .menu.nav.navbar-nav {
   z-index: 999;
 }
