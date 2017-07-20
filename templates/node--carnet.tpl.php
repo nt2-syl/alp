@@ -79,18 +79,20 @@
  * @ingroup templates
  */
 ?>
-      <?php if (!empty($title)): ?>
-      <?php 
-        $field = field_get_items('node', $node, 'field_image_fond');
-        $image_url = image_style_url('large', $field[0]['uri']);
-     ?>
-      <div style='background-image:url("<?php print $image_url ?>");'>
-        <h1 class="page-header"><?php print $title; ?></h1>
-      </div>
-      <?php endif; ?>
+<?php if (!empty($title)): ?>
+<?php 
+  $field = field_get_items('node', $node, 'field_image_fond');
+  $image_url = image_style_url('large', $field[0]['uri']);
+?>
+<div class="header-image" style='background-image:url("<?php print $image_url ?>");'>
+  <div class="container">
+    <h1 class="page-header"><?php print $title; ?></h1>
+  </div>
+</div>
+<?php endif; ?>
 
 
-<article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+<article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> container clearfix"<?php print $attributes; ?>>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
   <header>
     <?php print render($content['field_resume']); ?>
