@@ -11,18 +11,23 @@
 $mainColor : #3B495A;
 
 a {
-  color: #337ab7;
+  color: $mainColor;
   &:hover {
   	color: #333;
   }
 }
-/*=== TITLE ===*/
+/*=== TITLE & GENERAL===*/
 h1, h2, h3 {
 	font-family: "brandon-grotesque",sans-serif;
 }
 p {
 	font-family: "adelle",serif;
 }
+.field_title {
+	font-family: "adelle",serif;
+	font-size: 1.5em;
+}
+
 /*=== END TITLE ===*/
 
 /*=== NAVBAR ===*/
