@@ -7,6 +7,9 @@
 // Base-theme overrides.
 @import 'overrides';
 
+// Color 
+$mainColor : #3B495A;
+
 a {
   color: #337ab7;
   &:hover {
@@ -24,16 +27,21 @@ p {
 
 /*=== NAVBAR ===*/
 .navbar-warpper {
-	background-color:#3B495A;
+	background-color:$mainColor;
 	font-family: "brandon-grotesque",sans-serif;
 }
 
 
 .navbar-default {
-	background-color:#3B495A;
-	border-color: #3B495A;
+	background-color:$mainColor;
+	border-color: $mainColor;
 	.navbar-nav  > li > a {
 		color:white;
+		font-size: 1.3em;
+	}
+	.navbar-brand {
+		color:white;
+		font-size: 1.3em;
 	}
 }
 .menu.nav.navbar-nav {
