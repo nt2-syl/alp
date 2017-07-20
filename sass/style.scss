@@ -45,6 +45,7 @@ a {
 .navbar-default {
 	background-color:$mainColor;
 	border-color: $mainColor;
+	margin:0px;
 	.navbar-nav  > li > a {
 		color:white;
 		font-size: 1.3em;
