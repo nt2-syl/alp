@@ -73,6 +73,7 @@
  * @ingroup templates
  */
 ?>
+<div class="navbar-warpper">
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="<?php print $container_class; ?>">
     <div class="navbar-header">
@@ -113,6 +114,7 @@
     <?php endif; ?>
   </div>
 </header>
+</div>
 
 <header>
   <?php if (!empty($page['header_background'])): ?>
@@ -134,7 +136,7 @@
 
 </header>
 
-<div class="main-container <?php print $container_class; ?>">
+<div class="main-container">
 
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
