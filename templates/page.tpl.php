@@ -73,6 +73,7 @@
  * @ingroup templates
  */
 ?>
+<div class="navbar-warpper">
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="<?php print $container_class; ?>">
     <div class="navbar-header">
@@ -113,6 +114,7 @@
     <?php endif; ?>
   </div>
 </header>
+</div>
 
 <div class="main-container <?php print $container_class; ?>">
 
@@ -123,13 +125,6 @@
 
     <?php print render($page['header']); ?>
   </header> <!-- /#page-header -->
-
-
-  <?php if (!empty($page['content_top'])): ?>
-      <div class="row">
-        <?php print render($page['content_top']); ?>
-      </div>  <!-- /content-top-->
-    <?php endif; ?>
 
   <div class="row">
 
@@ -146,14 +141,14 @@
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
+      <?php if (!empty($primarytabs)): ?>
+        <?php print render($primarytabs); ?>
+      <?php endif; ?>
       <?php if (!empty($title)): ?>
-        <h1 class="page-header"><?php print $title; ?></h1>
+        <h1 class="page-header"><span><?php print $title; ?></span></h1>       
       <?php endif; ?>
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
-      <?php if (!empty($tabs)): ?>
-        <?php print render($tabs); ?>
-      <?php endif; ?>
       <?php if (!empty($page['help'])): ?>
         <?php print render($page['help']); ?>
       <?php endif; ?>
@@ -163,11 +158,13 @@
       <?php print render($page['content']); ?>
     </section>
 
+
     <?php if (!empty($page['sidebar_second'])): ?>
       <aside class="col-sm-3" role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
+
 
   </div>
 </div>
