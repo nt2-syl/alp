@@ -48,7 +48,7 @@ a {
 .navbar-default {
 	background-color:$mainColor;
 	border-color: $mainColor;
-	margin:0px;
+	margin-bottom:0px;
 	.navbar-nav  > li > a {
 		color:white;
 		font-size: 1.3em;
@@ -64,12 +64,12 @@ a {
 		width:50px;
 	}
 }
-.menu.nav.navbar-nav {
-  z-index: 999;
-}
-.navbar-default .navbar-nav > li > a {
-  z-index: 999;
-}
+// .menu.nav.navbar-nav {
+//   z-index: 999;
+// }
+// .navbar-default .navbar-nav > li > a {
+//   z-index: 999;
+// }
 
 .navbar-nav li a {
 	font-size:1em;
@@ -78,7 +78,7 @@ a {
 
 /*=== CAHIER & CARNET - HEADER ===*/
 .header-image {
-	height: 150px;
+	// height: 150px;
 	color:white;
 	margin-bottom:10px;
 	.page-header {

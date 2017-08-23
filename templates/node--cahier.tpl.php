@@ -79,26 +79,9 @@
  * @ingroup templates
  */
 ?>
-<?php if (!empty($title)): ?>
-<?php 
-  $field = field_get_items('node', $node, 'field_image');
-  $image_url = image_style_url('large', $field[0]['uri']);
-?>
-<div class="header-image" style='background-image:url("<?php print $image_url ?>");'>
-  <div class="container">
-    <h1 class="page-header"><?php print $title; ?></h1>
-  </div>
-</div>
-<?php endif; ?>
-
-
-<article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> container clearfix"<?php print $attributes; ?>>
+<article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
   <header>
-    <?php print render($content['field_resume']); ?>
-
-
-
     <?php print render($title_prefix); ?>
     <?php if (!$page && !empty($title)): ?>
     <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
@@ -117,8 +100,32 @@
     hide($content['comments']);
     hide($content['links']);
     hide($content['field_tags']);
-    print render($content);
   ?>
+  <!-- Title -->
+  <?php if (!empty($title)): ?>
+  <?php 
+    $field = field_get_items('node', $node, 'field_image');
+    $image_url = image_style_url('large', $field[0]['uri']);
+  ?>
+  <div class="header-image" style='background-image:url("<?php print $image_url ?>"); background-repeat:repeat;'>
+    <div class="container">
+      <div><?php print render($content['field_no_cahier']); ?></div>
+      <h1 class="page-header"><?php print $title; ?></h1>
+      <div><?php print render($content['field_directeur_1']); ?></div>
+      <div><?php print render($content['field_resume']); ?></div>
+    </div>
+  </div>
+  <?php endif; ?>
+
+
+
+
+
+  <div class="container">
+    <div><?php print render($content['body']); ?></div>
+
+    <?php print render($content); ?>
+  </div>
   <?php
     // Only display the wrapper div if there are tags or links.
     $field_tags = render($content['field_tags']);
