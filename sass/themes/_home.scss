@@ -17,3 +17,12 @@
 #block-views-accueil-collection-block {
 	@extend .col-sm-12;
 }
+
+#block-views-accueil-actualites-block {
+	h2 {
+		@extend .col-sm-12;
+	}
+	.view-footer {
+		@extend .col-sm-12;
+	}
+}
