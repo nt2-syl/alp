@@ -39,8 +39,22 @@ a {
 }
 
 /*=== GENERAL CLASS ===*/
+
+.navbar-default .navbar-nav > .active > a {
+	background-color:white;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color:white;
+}
+
 .date-display-single {
 	color : #AAB1B9;
+	font-size:1.1em;
+}
+
+.field_individu {
+	color:#1397E1;
 }
 
 .container .jumbotron {
