@@ -65,3 +65,7 @@ h1.page-header {
 	border-radius: 0px;
 }
 
+.view-footer a {
+	@extend .btn;
+	border-color : $greyColor;
+}
