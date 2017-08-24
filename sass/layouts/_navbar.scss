@@ -1,0 +1,29 @@
+/*=== NAVBAR ===*/
+.navbar-warpper {
+	background-color:$mainColor;
+	font-family: "brandon-grotesque",sans-serif;
+}
+.navbar-default {
+	background-color:$mainColor;
+	border-color: $mainColor;
+	margin-bottom:0px;
+	.navbar-nav  > li > a {
+		color:white;
+		font-size: 1.3em;
+		  &:hover {
+		  	color: white;
+		  }
+	}
+	.navbar-brand {
+		color:white;
+		font-size: 1.3em;
+	}
+	.logo img {
+		width:50px;
+	}
+}
+
+.navbar-nav li a {
+	font-size:1em;
+}
+/*=== END NAVBAR ===*/

@@ -1,0 +1,17 @@
+/*=== TITLE & GENERAL===*/
+h1, h2, h3 {
+	font-family: $mainFont,sans-serif;
+}
+p {
+	font-family: $subFont,serif;
+}
+.field_title, .views-field-title {
+	font-family: "adelle",serif;
+	font-size: 1.5em;
+}
+a {
+  color: $mainColor;
+  &:hover {
+  	color: #333;
+  }
+}
