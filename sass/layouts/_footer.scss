@@ -1,0 +1,18 @@
+footer {
+	background-color: $mainColor;
+	color: white;
+	li {
+		a {
+			color:white;
+		}
+	}
+	.region-footer {
+		@extend .row;
+	}
+	#block-block-11 {
+		@extend .col-md-4;
+	}
+	#block-menu-menu-menu-secondaire {
+		@extend .col-md-4;
+	}
+}

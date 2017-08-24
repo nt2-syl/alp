@@ -5,12 +5,18 @@
 @import '../bootstrap/assets/stylesheets/bootstrap';
 
 // Base-theme overrides.
-@import 'overrides';
+//@import 'overrides';
 
 // Color 
 $mainColor : #3B495A;
 $mainFont : "brandon-grotesque";
 $subFont : "adelle";
+$greyColor : #AAB1B9;
+$greyLightColor : #ECECEC;
+$secondColor : #1397E1;
+
+@import 'layouts/footer';
+
 /*=== RESET===*/
 body.toolbar-drawer {
     padding-top: 1px !important;
@@ -18,7 +24,6 @@ body.toolbar-drawer {
 .nav-tabs {
 	margin-bottom:0px;
 }
-
 
 /*=== TITLE & GENERAL===*/
 h1, h2, h3 {
@@ -48,13 +53,24 @@ a {
 	color:white;
 }
 
+h1.page-header {
+	margin-top:25px;
+}
+
+.views-row {
+	margin-top:15px;
+	padding-bottom:15px;
+	border-bottom: 1px solid $greyLightColor;
+}
+
 .date-display-single {
-	color : #AAB1B9;
+	font-family: "brandon-grotesque", sans-serif;
+	color : $greyColor;
 	font-size:1.1em;
 }
 
 .field_individu {
-	color:#1397E1;
+	color:$secondColor;	
 }
 
 .container .jumbotron {
