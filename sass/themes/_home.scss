@@ -58,3 +58,23 @@
 .views-field-title .field-content {
 	font-size: 1.3em;
 }
+
+// Line 
+div.view-footer {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    &:before {
+        border-top: 1px solid $greyColor;
+        content:"";
+        margin: 0 auto; 
+        position: absolute;
+        top: 50%; left: 0; right: 0; bottom: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    a { 
+        background: #fff; 
+    }
+}
