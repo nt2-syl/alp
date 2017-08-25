@@ -1,9 +1,13 @@
 /*=== TITLE & GENERAL===*/
+body {
+	
+	font-family: $subFont, sans-serif;
+}
 h1, h2, h3 {
-	font-family: $mainFont,sans-serif;
+	font-family: $mainFont, sans-serif;
 }
 p {
-	font-family: $subFont,serif;
+	font-family: $subFont, serif;
 }
 .field_title, .views-field-title {
 	font-family: "adelle",serif;

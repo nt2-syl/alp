@@ -80,12 +80,27 @@ article.node {
 		margin: 10px 0px;
 		font-size: 1.2em;
 		font-family: $mainFont, sans-serif;
+	}
 
+}
+
+
+// Archeologie
+#block-views-archeologie-autre-block {
+	.views-field-field-auteur-1 {
+		.field-collection-view {
+			margin:0px;
+			padding:5px 0px;
+		}
+		.field-name-field-statut-individu-auteur {
+			display: none;
+		}
 	}
 }
 
+
 #block-views-interviewer-sur-entretien-block {
-	
+
 }
 
 /**/
