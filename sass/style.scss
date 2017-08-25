@@ -23,6 +23,8 @@ $secondColor : #1397E1;
 @import 'components/flexslider';
 @import 'themes/home';
 @import 'themes/page-publication';
+@import 'themes/liste-rubrique';
+
 
 
 /*=== RESET===*/
@@ -59,9 +61,6 @@ h1.page-header {
 	font-size:1.1em;
 }
 
-.field_individu {
-	color:$secondColor;	
-}
 
 .container .jumbotron {
 	border-radius: 0px;

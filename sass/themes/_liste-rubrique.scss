@@ -1,0 +1,28 @@
+.view-section-archeologie, .view-seection-actualites, .view-section-entretiens {
+	.field_title {
+		font-size: 2.3em;
+	}
+	.field_resume {
+		font-size: 1.4em;
+	}
+	.date-display-single, .field_created {
+		font-family: $subFont, sans-serif;
+		color: #AAB1B9;
+		font-size: 1.4em;
+	}
+	.field_source_nouvelle {
+		font-family: $subFont, sans-serif;
+		color: #AAB1B9;
+		font-size: 1.5em;
+	}
+	.field_type_activite {
+		color:$secondColor;
+		font-family: $subFont, sans-serif;
+		font-size: 1.2em;
+	}
+	.field_individu {
+		color:$secondColor;
+		font-family: $subFont, sans-serif;
+		font-size: 1.2em;
+	}
+}

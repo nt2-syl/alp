@@ -50,6 +50,7 @@ h2.block-title {
 #block-views-accueil-actualites-block {
 	h2 {
 		@extend .col-sm-12;
+		display: none;
 	}
 	.view-footer {
 		@extend .col-sm-12;
