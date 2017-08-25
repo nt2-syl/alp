@@ -22,6 +22,11 @@
 	}
 }
 
+h2.block-title {
+	font-family: $subFont, sans-serif;
+	font-size:2.3em;
+}
+
 #block-views-accueil-cahier-recherche-block {
 	@extend .col-sm-6;
 }

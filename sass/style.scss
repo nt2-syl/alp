@@ -54,7 +54,7 @@ h1.page-header {
 }
 
 .date-display-single, .field_created {
-	font-family: "brandon-grotesque", sans-serif;
+	font-family: $subFont, sans-serif;
 	color : $greyColor;
 	font-size:1.1em;
 }
