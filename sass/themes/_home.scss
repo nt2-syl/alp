@@ -70,8 +70,9 @@ div.view-footer {
     position: relative;
     z-index: 1;
     text-align: center;
+    margin-top:18px;
     &:before {
-        border-top: 1px solid $greyColor;
+        border-top: 1px solid $greyLightColor;
         content:"";
         margin: 0 auto; 
         position: absolute;
@@ -81,6 +82,9 @@ div.view-footer {
     }
 
     a { 
+    	@extend .btn;
         background: #fff; 
+        border-color : $greyLightColor;
+
     }
 }

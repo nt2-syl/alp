@@ -38,6 +38,10 @@ body.toolbar-drawer {
 
 /*=== GENERAL CLASS ===*/
 
+.navbar-brand {
+	font-family: $mainFont, sans-serif;
+}
+
 .navbar-default .navbar-nav > .active > a {
 	background-color:white;
 }
@@ -67,7 +71,4 @@ h1.page-header {
 	border-radius: 0px;
 }
 
-.view-footer a {
-	@extend .btn;
-	border-color : $greyColor;
-}
+
