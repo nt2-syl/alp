@@ -38,3 +38,66 @@ article.node {
 		margin-bottom: 15px;
 	}
 }
+
+// Entretiens 
+.node-type-entretien {
+	.region-content-top {
+		@extend .col-sm-12;
+	}
+	.field-name-field-type-enregistrement {
+		.field-label {
+			display: none;
+		}
+		.field-item {
+			font-size: 1.4em;
+			color: $greyColor;
+			margin-top: 20px;
+			font-family: $subFont, sans-serif;
+
+		}
+	}
+	.field-name-title-field {
+		.field-label {
+			display: none;
+		}
+		.field-item {
+			font-size: 3em;
+			font-family: $mainFont, sans-serif;
+			color: $mainColor;
+
+		}
+	}
+	.node-video {
+		.field-name-body {
+				font-size: 1em !important;
+			.field-label {
+				display: none;
+			}
+		}
+	}
+
+	.field-name-field-auteur-2 {
+		margin: 10px 0px;
+		font-size: 1.2em;
+		font-family: $mainFont, sans-serif;
+
+	}
+}
+
+/**/
+.node-fiche-collection.contextual-links-region{
+	@extend .col-sm-4;
+}
+
+.node-video header {
+	display:none;
+}
+
+// Contenu Connexes
+.view-contenus-vs-entretien {
+		@extend .row;
+	.views-row {
+		@extend .col-sm-4;
+		border: 1px solid $greyColor;
+	}
+}
