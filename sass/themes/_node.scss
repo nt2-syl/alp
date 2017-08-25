@@ -1,0 +1,40 @@
+
+article.node {
+	.field-name-field-resume, .field-name-body {
+		font-size: 2.1em;
+	}
+}
+
+// Acutalités 
+.node-type-actualite, .node-type-archeologie {
+	.region-header {
+	    position: relative;
+	    background: black;
+	    overflow: hidden;
+	}
+	#block-cck-blocks-field-image {
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    width: 100%;
+	    height: auto;
+	    z-index: 1;
+	    opacity: 0.6;
+	}
+	.field-name-title-field {
+		font-family: $mainFont, sans-serif;
+		font-size:3em;
+		padding: 90px 0px 20px 30px;
+		z-index: 2;
+		position: relative;
+		color: white;
+	}
+}
+
+.view-actualites-bloc-autres {
+	.views-row {
+		border: 1px solid $greyColor;
+		padding:15px;
+		margin-bottom: 15px;
+	}
+}
