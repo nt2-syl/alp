@@ -161,7 +161,6 @@
       <?php print render($page['content']); ?>
     </section>
 
-
     <?php if (!empty($page['sidebar_second'])): ?>
       <aside class="col-sm-5" role="complementary">
         <?php print render($page['sidebar_second']); ?>
