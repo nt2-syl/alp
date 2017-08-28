@@ -107,12 +107,14 @@
     $field = field_get_items('node', $node, 'field_image');
     $image_url = image_style_url('large', $field[0]['uri']);
   ?>
-  <div class="header-image" style='background-image:url("<?php print $image_url ?>"); background-repeat:repeat;'>
-    <div class="container">
-      <div><?php print render($content['field_no_cahier']); ?></div>
-      <h1 class="page-header"><?php print $title; ?></h1>
-      <div><?php print render($content['field_directeur_1']); ?></div>
-      <div><?php print render($content['field_resume']); ?></div>
+  <div class="header-image" style='background-image:url("<?php print $image_url ?>"); background-repeat:repeat; background-size: cover;'>
+    <div class="background-layer">
+      <div class="container">
+        <div><?php print render($content['field_no_cahier']); ?></div>
+        <h1 class="page-header"><?php print $title; ?></h1>
+        <div><?php print render($content['field_directeur_1']); ?></div>
+        <div><?php print render($content['field_resume']); ?></div>
+      </div>
     </div>
   </div>
   <?php endif; ?>

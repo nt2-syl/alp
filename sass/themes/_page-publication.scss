@@ -1,10 +1,35 @@
 /*=== CAHIER & CARNET - HEADER ===*/
 .header-image {
-	// height: 150px;
 	color:white;
 	margin-bottom:10px;
+	text-align:center;
+	.background-layer {
+		background-color: rgba(59,73,91,0.6);
+		padding-top: 35px;
+	}
 	.page-header {
-		margin-top: 30px;
+		font-size: 3.3em;
+		margin-top: 5px;
 		border-bottom: 0px;
+	}
+	.field-name-field-no-cahier {
+		font-size: 1.5em;
+	}
+	.field-name-field-directeur-1 {
+		font-size: 1.5em;
+	}
+	.field-name-field-individu {
+		.field-label {
+			display: none;
+		}
+	}
+	.field-collection-view-links, .action-links-field-collection-add {
+		display: none;
+	}
+	.field-name-field-statut-individu-directeur {
+		display: none;
+	}
+	.field-collection-view, .field-collection-container {
+		border-bottom:0px solid;
 	}
 }
