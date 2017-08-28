@@ -3,3 +3,15 @@
 		display: none;
 	}
 }
+
+.node-fiche-collection {
+	margin-top:10px;
+	.field-name-field-type-oeuvre {
+		font-size: 1.5em;
+		color:$greyColor;
+	}
+	.field-name-title-field {
+		font-size: 2.5em;
+		font-family: $mainFont, sans serif;
+	}
+}
