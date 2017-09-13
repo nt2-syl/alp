@@ -87,6 +87,8 @@
 <div class="header-image" style='background-image:url("<?php print $image_url ?>");'>
   <div class="container">
     <h1 class="page-header"><?php print $title; ?></h1>
+            <div><?php print render($content['field_directeur_1']); ?></div>
+
   </div>
 </div>
 <?php endif; ?>

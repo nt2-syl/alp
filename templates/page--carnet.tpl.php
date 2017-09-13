@@ -130,9 +130,6 @@
       </div>  <!-- /content-top-->
   <?php endif; ?>
 
-
-
-
 </header>
 
 <div class="main-container">
