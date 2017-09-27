@@ -1,0 +1,22 @@
+.field-name-field-citation-biblio {
+	.field-label {
+		font-size: $fontSizeTitle;
+		margin : 20px 0px 10px 0px;
+	}
+	article {
+		h2 {
+			font-size: 1em;
+			display: inline;
+		}
+	}
+	footer {
+		background-color: white;
+	}
+}
+
+.field-name-field-credits {
+	.field-label {
+		font-size: $fontSizeTitle;
+		margin : 20px 0px 10px 0px;
+	}
+}
