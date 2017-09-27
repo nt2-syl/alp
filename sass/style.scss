@@ -32,6 +32,7 @@ $fontSizeTitle : 1.3em;
 @import 'base';
 @import 'layouts/navbar';
 @import 'layouts/footer';
+@import 'layouts/sidebar';
 @import 'components/flexslider';
 @import 'components/citations';
 @import 'themes/home';
@@ -97,6 +98,6 @@ h1.page-header {
 
 //*==== Field TYPO ====*//
 .field-name-field-type-activite .field-item {
-	
+
 }
 
