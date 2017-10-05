@@ -67,3 +67,7 @@
 .dropdown.views-exposed-form .views-exposed-widget {
   padding:0;
 }
+.navbar-nav {
+  position: relative;
+  z-index: 1;
+}
