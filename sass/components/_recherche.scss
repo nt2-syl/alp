@@ -1,0 +1,56 @@
+/* Recherche */
+.views-exposed-form .views-exposed-widget .form-submit:after {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: 0;
+  width: 34px;
+  height: 34px;
+  color: $noir;
+  content: "\f061";
+  font-size: 20px;
+  font-family: "FontAwesome";
+  text-align: center;
+}
+.views-exposed-form .views-exposed-widget .form-submit {
+  background-color: transparent;
+  border: medium none;
+  height: 34px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  font-size: 0;
+  top: 0;
+  width: 34px;
+  z-index: 3;
+}
+
+/* OnClick Search Button */
+#search-widget .well {
+  padding:0;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Theme bouton Toggle */
+#block-views-exp-recherche-generale-page .btn-primary {
+  content: "\f002";
+  color: #000;
+  background-color: transparent;
+  border-color: transparent;
+  border: none;
+  padding: 12px 12px;
+  font-size: 20px;
+  line-height: 1;
+  border-radius: 0;
+}
+.dropup, .dropdown {
+  position: relative;
+  text-align: right;
+}
+.dropdown.views-exposed-form .views-exposed-widget {
+  padding:0;
+}
