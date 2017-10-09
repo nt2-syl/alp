@@ -11,11 +11,16 @@ p {
 }
 .field_title, .views-field-title {
 	font-family: $mainFont,serif;
-	font-size: 1.5em;
+	font-size: $fontSizeTitle;
+
 }
 a {
   color: $mainColor;
   &:hover {
   	color: #333;
   }
+}
+
+footer {
+	margin-top : 1rem;
 }

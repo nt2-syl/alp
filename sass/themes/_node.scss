@@ -33,8 +33,6 @@ article.node {
 
 .view-actualites-bloc-autres {
 	.views-row {
-		border: 1px solid $greyColor;
-		padding:15px;
 		margin-bottom: 15px;
 	}
 }
@@ -121,6 +119,5 @@ article.node {
 		@extend .row;
 	.views-row {
 		@extend .col-sm-4;
-		border: 1px solid $greyColor;
 	}
 }

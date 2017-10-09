@@ -1,0 +1,64 @@
+.view-actualites-bloc-autres, .view-archeologie-autre, .view-section-autres-projets-cr-ations {
+	.views-field-title .field-content  {
+		font-size:$fontSizeBody;
+		line-height:1.1rem;
+		line-height: 0.9rem;
+
+	}
+	.views-field-field-type-activite .field-content  {
+		font-size:$fontSize;
+		line-height:1.1rem;
+		font-weight:700;
+		margin-top: 0.3rem;
+		margin-bottom: 0.3rem;
+	}
+}
+
+.view-actualites-bloc-autres, .view-archeologie-autre, .view-contenus-vs-entretien {
+	.views-field-field-image {
+		img {
+			margin-bottom: 0.8rem;
+		}
+	}
+}
+.field-name-field-source-nouvelle .field-items {
+	font-size:$fontSizeBody;
+	font-weight:700;
+}
+
+.field-name-field-type-activite .field-items {
+	font-size:$fontSizeBody;
+	font-weight:700;
+}
+
+#block-views-actualites-bloc-autres-block, 
+#block-views-archeologie-autre-block, 
+#block-views-contenus-vs-entretien-block-2,
+#block-views-contenus-vs-entretien-block-6,
+#block-views-c81f793af467f0b5d9e703d8689d571c {
+	h2.block-title {
+		font-size:$fontSizeBody;
+		text-transform: uppercase;
+		text-decoration: underline;
+	}
+}
+
+// Connexe
+
+.view-contenus-vs-entretien {
+	.views-field-type {
+		.field-content {
+			font-size:$fontSize;
+			font-weight:700;	
+		}
+	}
+	.views-field-title {
+		line-height:1.6rem;
+		.field-content {
+			font-size: $fontSizeBody;
+		}
+	}
+	.views-field-field-individu {
+		font-weight:700;	
+	}
+}

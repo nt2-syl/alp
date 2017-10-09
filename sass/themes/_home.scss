@@ -23,7 +23,7 @@
 }
 
 h2.block-title {
-	font-size:2.3em;
+	font-size:$fontSizeTitle-big;
 }
 
 #block-views-accueil-cahier-recherche-block {
@@ -59,12 +59,12 @@ h2.block-title {
 
 .front {
 	.field-content p {
-	font-size: 1.3em;
+	font-size: $fontSizeBody;
 	}
 }
 
 .views-field-title .field-content {
-	font-size: 1.3em;
+	font-size: $fontSizeTitle;
 }
 
 // Line 
@@ -87,6 +87,20 @@ div.view-footer {
     	@extend .btn;
         background: #fff; 
         border-color : $greyLightColor;
+        font-size: $fontSize;
 
     }
 }
+
+.views-field-field-type-activite .field-content {
+	font-size:$fontSizeTitle-small ;
+}
+
+.views-field-field-no-cahier  .field-content {
+	font-size:$fontSizeTitle-small ;
+}
+
+.views-label-field-responsable, .views-field-field-type-enregistrement .field-content {
+	font-size:$fontSizeTitle-small ;
+}
+

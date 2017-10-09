@@ -26,7 +26,14 @@ $greyColor : #AAB1B9;
 $greyLightColor : #ECECEC;
 $secondColor : #1397E1;
 
-$fontSizeTitle : 1.3em;
+
+// Ratio - 1.125 - Base 18px
+$fontSizeTitle-extra : 2.488rem;
+$fontSizeTitle-big : 2.074rem;
+$fontSizeTitle : 1.728rem;
+$fontSizeTitle-small : 1.44rem;
+$fontSizeBody : 1.2rem;
+$fontSize : 1rem;
 
 
 @import 'base';
@@ -35,6 +42,7 @@ $fontSizeTitle : 1.3em;
 @import 'layouts/sidebar';
 @import 'components/flexslider';
 @import 'components/citations';
+@import 'components/autres';
 @import 'themes/home';
 @import 'themes/page-publication';
 @import 'themes/liste-rubrique';
@@ -45,6 +53,10 @@ $fontSizeTitle : 1.3em;
 
 
 /*=== RESET===*/
+html {
+  font-size: 16px;
+}
+
 body.toolbar-drawer {
     padding-top: 1px !important;
 }
