@@ -42,6 +42,7 @@ $fontSize : 1rem;
 @import 'layouts/sidebar';
 @import 'components/flexslider';
 @import 'components/citations';
+@import 'components/recherche';
 @import 'components/autres';
 @import 'themes/home';
 @import 'themes/page-publication';
@@ -53,10 +54,6 @@ $fontSize : 1rem;
 
 
 /*=== RESET===*/
-html {
-  font-size: 16px;
-}
-
 body.toolbar-drawer {
     padding-top: 1px !important;
 }
