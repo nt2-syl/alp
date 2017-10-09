@@ -54,6 +54,10 @@ $fontSize : 1rem;
 
 
 /*=== RESET===*/
+html {
+  font-size: 16px;
+}
+
 body.toolbar-drawer {
     padding-top: 1px !important;
 }
