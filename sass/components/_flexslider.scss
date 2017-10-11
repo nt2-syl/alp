@@ -8,3 +8,9 @@
 .optionset-carrousel-fiche-collection-accueil .field-name-field-individu, .optionset-carrousel-fiche-collection-accueil .views-field-field-type-oeuvre{
 	font-size: $fontSizeBody;
 }
+
+.flex-direction-nav a:before {
+  font-size: 36px;
+  text-shadow: 1px 1px 3px #fff;
+  color:#000;
+}
