@@ -1,11 +1,11 @@
-.view-section-archeologie, .view-seection-actualites, .view-section-entretiens {
+.view-section-archeologie, .view-seection-actualites, .view-section-entretiens, .view-section-explorations {
 	.field_title {
 		font-size: $fontSizeTitle-normal;
 	}
 	.field_resume {
 		font-size: $fontSizeContent-big;
 	}
-	.date-display-single, .field_created {
+	.date-display-single, .field_created, .field_date_publication {
 		font-family: $subFont, sans-serif;
 		color: #AAB1B9;
 		font-size: $fontSizeTitle-extrasmall;
@@ -24,5 +24,6 @@
 		color:$secondColor;
 		font-family: $subFont, sans-serif;
 		font-size: $fontSizeTitle-extrasmall;
+
 	}
 }
