@@ -1,9 +1,12 @@
-#block-block-12 {
+.view-banque-image-accueil {
     position: relative;
     background: black;
     overflow: hidden;
-	#intro {
-		padding: 70px;
+    .views-row-first {
+		@extend .container;
+    }
+	.views-field-body .field-content {
+		padding:70px 00px;
 		z-index: 2;
 		position: relative;
 		color: white;
@@ -11,7 +14,7 @@
 			font-size: 5em;
 		}
 	}
-	img {
+	.views-field-field-image .field-content img {
 	    position: absolute;
 	    left: 0;
 	    top: 0;

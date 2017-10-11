@@ -116,6 +116,12 @@
 </header>
 </div>
 
+
+<?php if (!empty($page['content_top'])): ?>
+  <div class="row">
+    <?php print render($page['content_top']); ?>
+  </div>  <!-- /content-top-->
+<?php endif; ?>
 <div class="main-container <?php print $container_class; ?>">
 
   <header role="banner" id="page-header">
