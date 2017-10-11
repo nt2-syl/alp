@@ -8,20 +8,25 @@
 		padding-top: 35px;
 	}
 	.page-header {
-		font-size: 3.3em;
+		font-size: $fontSizeTitle-full;
 		margin-top: 5px;
 		border-bottom: 0px;
 	}
 	.field-name-field-no-cahier {
-		font-size: 1.5em;
+		font-size: $fontSizeTitle-small;
 	}
 	.field-name-field-directeur-1 {
-		font-size: 1.5em;
+		font-size: $fontSizeTitle-small;
 	}
 	.field-name-field-individu {
 		.field-label {
 			display: none;
 		}
+	}
+	.field-name-body {
+		font-size:$fontSizeContent-big;
+		text-align:left;
+
 	}
 	.field-collection-view-links, .action-links-field-collection-add {
 		display: none;
@@ -31,5 +36,29 @@
 	}
 	.field-collection-view, .field-collection-container {
 		border-bottom:0px solid;
+	}
+}
+
+.view-entree-carnet-vs-carnet {
+	.views-field-field-date-publication {
+		font-size:$fontSizeTitle-extrasmall;
+	}
+	.views-field-title {
+		font-size:$fontSizeTitle-normal;
+	}
+	.views-field-field-resume {
+		margin-top:0.8rem;
+		font-size:$fontSizeContent-normal;
+	}
+}
+
+
+.view-section-carnets-recherche {
+	.views-field-field-resume {
+		margin-top:0.8rem;
+		font-size:$fontSizeContent-normal;
+	}
+	.field-name-field-individu {
+		font-size:$fontSizeTitle-extrasmall;
 	}
 }
