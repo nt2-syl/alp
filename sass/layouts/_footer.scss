@@ -2,12 +2,18 @@ footer {
 	background-color: $mainColor;
 	color: white;
 	h2 {
-		font-size: 1.7em;
+		font-size: $fontSizeTitle-normal;
+	}
+	h2.block-title {
+		font-size: $fontSizeTitle-normal
 	}
 	li {
 		a {
 			color:white;
 		}
+	}
+	p {
+		font-size:$fontSizeContent-normal;
 	}
 	.region-footer {
 		@extend .row;

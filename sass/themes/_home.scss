@@ -62,12 +62,12 @@ h2.block-title {
 
 .front {
 	.field-content p {
-	font-size: $fontSizeBody;
+	font-size: $fontSizeContent-big;
 	}
 }
 
 .views-field-title .field-content {
-	font-size: $fontSizeTitle;
+	font-size: $fontSizeTitle-normal;
 }
 
 // Line 
@@ -90,8 +90,7 @@ div.view-footer {
     	@extend .btn;
         background: #fff; 
         border-color : $greyLightColor;
-        font-size: $fontSize;
-
+        font-size: $fontSizeContent-normal;
     }
 }
 

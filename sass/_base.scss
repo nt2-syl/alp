@@ -1,8 +1,16 @@
 /*=== TITLE & GENERAL===*/
+html {
+  font-size: 16px;
+}
+
 body {
-	
 	font-family: $subFont, sans-serif;
 }
+
+body.toolbar-drawer {
+    padding-top: 1px !important;
+}
+
 h1, h2, h3 {
 	font-family: $mainFont, sans-serif;
 }
@@ -11,7 +19,7 @@ p {
 }
 .field_title, .views-field-title {
 	font-family: $mainFont,serif;
-	font-size: $fontSizeTitle;
+	font-size: $fontSizeTitle-normal;
 
 }
 a {
@@ -24,3 +32,60 @@ a {
 footer {
 	margin-top : 1rem;
 }
+
+
+.nav-tabs {
+	margin-bottom:0px;
+}
+
+.field-collection-view {
+	margin:0px;
+}
+
+.field-collection-container {
+	border-bottom:0px;
+}
+
+/*=== GENERAL CLASS ===*/
+
+.navbar-brand {
+	font-family: $mainFont, sans-serif;
+}
+
+.navbar-default .navbar-nav > .active > a {
+	background-color:white;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color:white;
+}
+
+h1.page-header {
+	margin-top:25px;
+}
+
+.view-section-archeologie .views-row, .view-seection-actualites .views-row , .view-section-entretiens .views-row {
+	margin-top:15px;
+	padding-bottom:15px;
+	border-bottom: 1px solid $greyLightColor;
+}
+
+.date-display-single, .field_created {
+	font-family: $subFont, sans-serif;
+	color : $greyColor;
+	font-size:1.1em;
+}
+
+
+.container .jumbotron {
+	border-radius: 0px;
+}
+
+
+
+/*=== JUMBTRON ===*/
+.highlighted.jumbotron h1 {
+	font-size:$fontSizeTitle-full;
+}
+
+

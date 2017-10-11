@@ -1,7 +1,7 @@
 
 article.node {
 	.field-name-field-resume, .field-name-body {
-		font-size: 1.3em;
+		font-size: $fontSizeContent-big;
 	}
 }
 
@@ -51,7 +51,7 @@ article.node {
 			display: none;
 		}
 		.field-item {
-			font-size: 1.4em;
+			font-size: $fontSizeTitle-small;
 			color: $greyColor;
 			margin-top: 20px;
 			font-family: $subFont, sans-serif;
@@ -63,7 +63,7 @@ article.node {
 			display: none;
 		}
 		.field-item {
-			font-size: 3em;
+			font-size: $fontSizeTitle-extra;
 			font-family: $mainFont, sans-serif;
 			color: $mainColor;
 
@@ -71,20 +71,44 @@ article.node {
 	}
 	.node-video {
 		.field-name-body {
-				font-size: 1em !important;
+				font-size: $fontSizeContent-normal !important;
 			.field-label {
 				display: none;
 			}
 		}
 	}
-
+	
 	.field-name-field-auteur-2 {
 		margin: 10px 0px;
-		font-size: 1.2em;
+		font-size: $fontSizeContent-normal;
 		font-family: $mainFont, sans-serif;
+	}
+	.field-name-field-date-publication {
+		font-size:$fontSizeTitle-extrasmall;
+	}
+	.well {
+		background-color:white;
+		border-radius:0px;
+		padding:12px;
+	}
+	.field-name-body {
+		font-size: $fontSizeContent-normal;
+	}
+	.view-interviewer-sur-entretien {
+		.views-field-title {
+			margin-bottom: 0.9rem;
+				.field-content {
+				font-size: $fontSizeTitle-small;
+				
+			}
+		}
+		.views-field-body {
+			font-size: $fontSizeContent-small;
+		}
 	}
 
 }
+
 
 
 // Archeologie
