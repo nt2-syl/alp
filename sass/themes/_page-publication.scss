@@ -17,6 +17,12 @@
 	}
 	.field-name-field-directeur-1 {
 		font-size: $fontSizeTitle-small;
+		.field-item {
+			margin-bottom:0px;
+		}
+		.field-collection-view {
+			padding:0px;
+		}
 	}
 	.field-name-field-individu {
 		.field-label {
@@ -45,6 +51,7 @@
 	}
 	.views-field-title {
 		font-size:$fontSizeTitle-normal;
+		max-height: 2rem;
 	}
 	.views-field-field-resume {
 		margin-top:0.8rem;

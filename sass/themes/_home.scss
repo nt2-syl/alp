@@ -29,12 +29,9 @@ h2.block-title {
 	font-size:$fontSizeTitle-big;
 }
 
-#block-views-accueil-cahier-recherche-block {
-	@extend .col-sm-6;
-}
 
 #block-views-accueil-carnet-recherche-block {
-	@extend .col-sm-6;
+	@extend .col-sm-12;
 }
 
 #block-views-accueil-entretiens-block {

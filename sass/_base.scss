@@ -30,12 +30,12 @@ a {
 }
 
 footer {
-	margin-top : 1rem;
+	margin-top : 2rem;
 }
 
 
 .nav-tabs {
-	margin-bottom:0px;
+	margin-bottom:15px;
 }
 
 .field-collection-view {
@@ -70,7 +70,7 @@ h1.page-header {
 	border-bottom: 1px solid $greyLightColor;
 }
 
-.date-display-single, .field_created {
+.date-display-single, .field_created, .field-name-field-date-actualite {
 	font-family: $subFont, sans-serif;
 	color : $greyColor;
 	font-size:1.1em;

@@ -6,7 +6,7 @@ article.node {
 }
 
 // Acutalites 
-.node-type-actualite, .node-type-archeologie {
+.node-type-actualite, .node-type-archeologie, .node-type-exploration {
 	.region-header {
 	    position: relative;
 	    background: black;
@@ -22,12 +22,79 @@ article.node {
 	    opacity: 0.6;
 	}
 	.field-name-title-field {
-		font-family: $mainFont, sans-serif;
+		font-family: $mainFont, sans-serif; 
 		font-size: 3em;
 		padding: 135px 0px 20px 30px;
 		z-index: 2;
 		position: relative;
 		color: white;
+		@extend .col-sm-8, .col-sm-offset-1;
+		.field-label {
+			display:none;
+		}
+	}
+
+}
+
+.node-type-exploration {
+	article {
+		@extend .row;
+	}
+	.field-collection-container {
+		@extend .col-md-8;
+	}
+	.field-name-body {
+		font-size:$fontSizeContent-big;
+		@extend .col-md-8,.col-sm-10;
+	}
+	.field-name-field-citation-biblio {
+		@extend .col-sm-8,.col-sm-10;
+	}
+	.field-name-field-ref-biblio {
+		@extend .col-sm-8,.col-sm-10;
+	}
+	.action-links {
+		display:none;
+	}
+}
+
+
+.field-name-field-auteur-1 {
+	font-size: $fontSizeTitle-small ;
+	.field-collection-view {
+		border:none;
+	}
+	.field-label {
+		display:inline;
+	}
+	.field-items {
+		display: inline-block;
+		line-height: 0rem;
+	}
+	.field-items, .field {
+		display:inline;
+	}
+	.field-item {
+		display:inline-block;
+		margin-bottom:0px !important;
+	}
+	.field-collection-view-links {
+		display:none;
+	}
+	.field-name-field-individu:after{
+		content:" - "
+	}
+
+}
+
+// About 
+.page-node-346, .page-node-373 {
+	article {
+		@extend .row;
+	}
+	.field-name-body {
+		font-size:$fontSizeContent-big;
+		@extend .col-sm-8;
 	}
 }
 
@@ -144,4 +211,22 @@ article.node {
 	.views-row {
 		@extend .col-sm-4;
 	}
+}
+
+// Node Exploration 
+.node-type-exploration {
+	// .field-name-field-image {
+	// 	.field-label {
+	// 		display:none;
+	// 	}
+	// }
+	// .field-name-title-field {
+	// 	.field-label {
+	// 		display:none;
+	// 	}
+	// 	.field-items {
+	// 		font-size:$fontSizeTitle-big;
+	// 		font-family:$mainFont;
+	// 	}
+	// }
 }
