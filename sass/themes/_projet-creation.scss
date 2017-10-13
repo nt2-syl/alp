@@ -1,14 +1,22 @@
 #slide-projet-creation {
-	.views-field-title {
-		display: none;
-	}
+  .views-field-title {
+    display: none;
+  }
 }
 #block-views-a50a42d886a215bf88abbbe8cdc53ce7 {
-	.block-title {
-		display: none;
-	}
+  .block-title {
+    display: none;
+  }
+}
+.field-name-field-date-projet {
+  margin-bottom: 1rem;
+  font-size: $fontSizeTitle-small ;
 }
 
+.field-name-field-site-internet {
+  margin-top: 1rem;
+  font-size: $fontSizeTitle-small ;
+}
 h1.page-header {
-	border-bottom:none;
+  border-bottom: none;
 }

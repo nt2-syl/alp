@@ -1,71 +1,76 @@
 /*=== CAHIER & CARNET - HEADER ===*/
 .header-image {
-	color:white;
-	margin-bottom:30px;
-	text-align:center;
-	.background-layer {
-		background-color: rgba(59,73,91,0.6);
-		padding-top: 35px;
-	}
-	.page-header {
-		font-size: $fontSizeTitle-full;
-		margin-top: 5px;
-		border-bottom: 0px;
-	}
-	.field-name-field-no-cahier {
-		font-size: $fontSizeTitle-small;
-	}
-	.field-name-field-directeur-1 {
-		font-size: $fontSizeTitle-small;
-		.field-item {
-			margin-bottom:0px;
-		}
-		.field-collection-view {
-			padding:0px;
-		}
-	}
-	.field-name-field-individu {
-		.field-label {
-			display: none;
-		}
-	}
-	.field-name-body {
-		font-size:$fontSizeContent-big;
-		text-align:left;
-
-	}
-	.field-collection-view-links, .action-links-field-collection-add {
-		display: none;
-	}
-	.field-name-field-statut-individu-directeur {
-		display: none;
-	}
-	.field-collection-view, .field-collection-container {
-		border-bottom:0px solid;
-	}
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+  .background-layer {
+    padding-top: 35px;
+    background-color: rgba(59,73,91,.6);
+  }
+  .page-header {
+    margin-top: 5px;
+    font-size: $fontSizeTitle-full;
+    border-bottom: 0;
+  }
+  .field-name-field-no-cahier {
+    font-size: $fontSizeTitle-small;
+  }
+  .field-name-field-directeur-1,
+  .field-name-field-responsable {
+    font-size: $fontSizeTitle-small;
+    .field-item {
+      margin-bottom: 0;
+    }
+    .field-collection-view {
+      padding: 0;
+    }
+  }
+  .field-name-field-individu {
+    .field-label {
+      display: none;
+    }
+  }
+  .field-name-body {
+    font-size: $fontSizeContent-big;
+    text-align: left;
+  }
+  .field-collection-view-links,
+  .action-links-field-collection-add {
+    display: none;
+  }
+  .field-name-field-statut-individu-directeur {
+    display: none;
+  }
+  .field-collection-view,
+  .field-collection-container {
+    border-bottom: 0 solid;
+  }
 }
 
 .view-entree-carnet-vs-carnet {
-	.views-field-field-date-publication {
-		font-size:$fontSizeTitle-extrasmall;
-	}
-	.views-field-title {
-		font-size:$fontSizeTitle-normal;
-		max-height: 2rem;
-	}
-	.views-field-field-resume {
-		margin-top:0.8rem;
-		font-size:$fontSizeContent-normal;
-	}
+  .views-field-field-date-publication {
+    font-size: $fontSizeTitle-extrasmall;
+  }
+  .views-field-title {
+    max-height: 2rem;
+    font-size: $fontSizeTitle-normal;
+  }
+  .views-field-field-resume {
+    margin-top: .8rem;
+    font-size: $fontSizeContent-normal;
+  }
+  .views-row {
+    margin-bottom: 2rem;
+  }
 }
 
 
 .view-section-carnets-recherche {
-	.views-field-field-resume {
-		margin-top:0.8rem;
-		font-size:$fontSizeContent-normal;
-	}
-	.field-name-field-individu {
-		font-size:$fontSizeTitle-extrasmall;
-	}
+  .views-field-field-resume {
+    margin-top: .8rem;
+    font-size: $fontSizeContent-normal;
+  }
+  .field-name-field-individu {
+    font-size: $fontSizeTitle-extrasmall;
+  }
 }
