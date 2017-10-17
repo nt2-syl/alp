@@ -213,6 +213,23 @@ article.node {
 	}
 }
 
+// NODE 
+.node-type-entree-carnet {
+	.view-entr-e-de-carnet-sidebar- {
+		.views-field-title {
+			line-height:1.4rem;
+			.field-content {
+				font-size:$fontSizeTitle-extrasmall;
+				margin-bottom:$margin-bottom-title;
+		
+			}
+		}
+		.field-name-field-individu {
+			font-weight:700;
+		}
+	}
+}
+
 // Node Exploration 
 .node-type-exploration {
 	// .field-name-field-image {
