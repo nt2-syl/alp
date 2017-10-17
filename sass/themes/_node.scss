@@ -216,19 +216,26 @@ article.node {
 // NODE 
 .node-type-entree-carnet {
 	.view-entr-e-de-carnet-sidebar- {
+		padding-top:1rem;
+		.views-field-title:first-child .field-content {
+			font-size:$fontSizeTitle-small;
+		}
 		.views-field-title {
 			line-height:1.4rem;
 			.field-content {
 				font-size:$fontSizeTitle-extrasmall;
 				margin-bottom:$margin-bottom-title;
-		
 			}
 		}
 		.field-name-field-individu {
 			font-weight:700;
+			margin-top:1rem;
 		}
 	}
 }
+
+
+
 
 // Node Exploration 
 .node-type-exploration {

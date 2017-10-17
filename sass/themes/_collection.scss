@@ -1,3 +1,19 @@
+// Page Collection 
+.page-collection {
+	aside {
+		ul {
+			list-style:none;
+			padding:0;
+		}
+	}
+}
+
+.block-facetapi {
+	h2 {
+		font-size:$fontSizeTitle-normal;
+	}
+}
+
 #block-views-carousel-medias-sur-noeud-block {
 	.block-title {
 		display: none;
