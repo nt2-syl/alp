@@ -4,8 +4,22 @@
 		ul {
 			list-style:none;
 			padding:0;
+			font-size:$fontSizeContent-normal;
 		}
 	}
+	.views-field-field-createur-field-individu {
+		font-weight:700;
+	}
+	.views-field-title {
+		.field-content {
+			font-size:$fontSizeTitle-small;
+		}
+	}
+	 .views-field-field-type-oeuvre {
+		.field-content {
+			background-color:$mainColor;
+		}
+	 }
 }
 
 .block-facetapi {
