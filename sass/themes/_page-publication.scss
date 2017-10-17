@@ -66,6 +66,9 @@
 
 
 .view-section-carnets-recherche {
+  .entity-field-collection-item {
+  	display:inline-block;
+  }
   .views-field-field-resume {
     margin-top: .8rem;
     font-size: $fontSizeContent-normal;
