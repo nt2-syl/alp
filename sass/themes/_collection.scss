@@ -18,9 +18,43 @@
 	 .views-field-field-type-oeuvre {
 		.field-content {
 			background-color:$mainColor;
+			color:white;
 		}
 	 }
 }
+
+.node-type-fiche-collection {
+	.field-name-field-createur {
+		.field-collection-view {
+
+		}
+		.field-name-field-individu {
+			font-weight:700;
+		}
+		.field-collection-container {
+			margin-bottom:0;
+		}
+	}
+	.region-sidebar-second {
+		.field-label {
+			font-size: $fontSizeTitle-extrasmall;
+		}
+		.field-items {
+			font-size: $fontSizeTitle-extrasmall;
+		}
+	}
+	.field-name-field-discours-notes, .field-name-field-relation-projet {
+			font-size: $fontSizeContent-big;
+			margin-bottom:1rem;
+
+	}
+	.field-name-field-ref-biblio {
+		.field-item {
+			margin-bottom:$margin-bottom-paragraphe;
+		}
+	}
+}
+
 
 .block-facetapi {
 	h2 {
