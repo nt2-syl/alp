@@ -63,3 +63,20 @@
 		font-weight:700;	
 	}
 }
+
+// Logo 
+
+.navbar-default .logo img {
+  width: auto;
+}
+.navbar-btn {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.front .views-exposed-widgets {
+  margin-bottom: 0;
+}
+.navbar-header {
+  z-index: 9;
+  position: relative;
+}
