@@ -87,12 +87,17 @@
 .navbar-default .navbar-nav > li > a {
     font-size: 1.4em;
 }
+
 // Projet de creation: Carousel: Limiter la taille de l'icone audio
 .views-field-field-fichier-audio img {
   max-width: 100px;
   max-height: 100px;
 }
 
-
-
-
+// Entretiens: Espace sous l'audio
+.field-name-field-fichier-audio {
+  margin-bottom: 2em;
+}
+.node-type-entretien .node-audio h2 {
+  display: none;	
+}
