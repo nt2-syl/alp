@@ -20,3 +20,14 @@
 h1.page-header {
   border-bottom: none;
 }
+
+.view-section-projets-creation {
+  .views-field-field-resume {
+    font-size:$fontSizeContent-shame;
+    line-height: 1.4rem;
+  }
+  .views-field-field-individu {
+    font-weight: 700;
+  }
+}
+

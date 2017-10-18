@@ -59,7 +59,7 @@ h2.block-title {
 
 .front {
 	.field-content p {
-	font-size: $fontSizeContent-big;
+	font-size: $fontSizeContent-normal;
 	}
 }
 
@@ -92,14 +92,14 @@ div.view-footer {
 }
 
 .views-field-field-type-activite .field-content {
-	font-size:$fontSizeTitle-small ;
+	font-size:$fontSizeContent-shame;
 }
 
 .views-field-field-no-cahier  .field-content {
-	font-size:$fontSizeTitle-small ;
+	font-size:$fontSizeContent-shame;
 }
 
 .views-label-field-responsable, .views-field-field-type-enregistrement .field-content {
-	font-size:$fontSizeTitle-small ;
+	font-size:$fontSizeContent-shame;
 }
 

@@ -14,6 +14,11 @@
 		  	color: white;
 		  }
 	}
+	.navbar-nav > .active > a {
+		background-color:$mainColor;
+		color:white;
+		text-decoration: underline;
+	}
 	.navbar-brand {
 		color:white;
 		font-size: 1.3em;
