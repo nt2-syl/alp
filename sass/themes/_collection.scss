@@ -19,7 +19,24 @@
 		.field-content {
 			background-color:$mainColor;
 			color:white;
+			padding: 0px 6px;
 		}
+	 }
+	 .views-exposed-form .views-exposed-widget .form-submit {
+	 	  margin: 30px 12px 0 !important;
+	 }
+	 .pagination > .active > span {
+	 	background-color:$mainColor;
+    	border-color: $mainColor;
+	 }
+	 .pagination > li > a {
+	 	color:$mainColor;
+	 }
+	 .well {
+	 	background-color:#eeeeee;
+	 	border-radius:2px;
+	 	border: none;
+	 	box-shadow:none;
 	 }
 }
 
