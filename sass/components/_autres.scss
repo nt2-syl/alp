@@ -64,7 +64,7 @@
 	}
 }
 
-// Logo 
+// Header et Logo 
 
 .navbar-default .logo img {
   width: auto;
@@ -85,8 +85,12 @@
   padding-top: 15px;
 }
 .navbar-default .navbar-nav > li > a {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
+.not-logged-in #block-views-exp-recherche-generale-page .views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 25px;
+}
+
 
 // Projet de creation: Carousel: Limiter la taille de l'icone audio
 .views-field-field-fichier-audio img {
@@ -106,4 +110,6 @@
 // Footer: Liens
 .region-footer a {
   color: #fff;
+  z-index: 9;
+  position: relative;
 }
