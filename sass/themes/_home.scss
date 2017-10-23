@@ -34,15 +34,18 @@
       height: auto;
       opacity: .6;
     }
+    .views-field-body .field-content {
+    	padding:1rem 0;
+	}
     .views-field-field-image .field-content img.img-responsive {
       max-width: none;
     }
     .views-field-body .field-content {
     	h1 {
-    	font-size: 3.5rem;
+    	font-size: 3rem;
     	margin: 0px 0.4rem;
     	}
-    	h2 {
+    	h2,h3 {
     	margin: 0.7rem 0.4rem;
     	}
     	p {
