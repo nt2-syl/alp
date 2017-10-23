@@ -21,6 +21,9 @@ article.node {
 	    z-index: 1;
 	    opacity: 0.6;
 	}
+	#block-cck-blocks-field-image img {
+		width:100%;
+	}
 	.field-name-title-field {
 		font-family: $mainFont, sans-serif; 
 		font-size: 3em;
