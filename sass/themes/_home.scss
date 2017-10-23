@@ -1,29 +1,66 @@
 .view-banque-image-accueil {
+  position: relative;
+  overflow: hidden;
+  background: black;
+  .views-row-first {
+    @extend .container;
+  }
+  .views-field-body .field-content {
     position: relative;
-    background: black;
-    overflow: hidden;
-    .views-row-first {
-		@extend .container;
+    z-index: 2;
+    padding: 70px 00px;
+    color: white;
+    h1 {
+      font-size: 5em;
     }
-	.views-field-body .field-content {
-		padding:70px 00px;
-		z-index: 2;
-		position: relative;
-		color: white;
-		h1 {
-			font-size: 5em;
-		}
-	}
-	.views-field-field-image .field-content img {
-	    position: absolute;
-	    left: 0;
-	    top: 0;
-	    width: 100%;
-	    height: auto;
-	    z-index: 1;
-	    opacity: 0.6;
-	}
+  }
+  .views-field-field-image .field-content img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    opacity: .6;
+  }
+
+  @media(max-width:767px) {
+    .views-field-field-image .field-content img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: auto;
+      height: auto;
+      opacity: .6;
+    }
+    .views-field-field-image .field-content img.img-responsive {
+      max-width: none;
+    }
+    .views-field-body .field-content {
+    	h1 {
+    	font-size: 3.5rem;
+    	margin: 0px 0.4rem;
+    	}
+    	h2 {
+    	margin: 0.7rem 0.4rem;
+    	}
+    	p {
+    	margin: 0.4rem 0.4rem;
+    	}
+    }
+  }
 }
+
+
+@media(min-width:768px){
+
+}
+
+@media(min-width:992px){}
+@media(min-width:1200px){}
+
+
 
 h2.block-title {
 	font-size:$fontSizeTitle-big;
