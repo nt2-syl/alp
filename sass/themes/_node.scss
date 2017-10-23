@@ -27,16 +27,26 @@ article.node {
 	.field-name-title-field {
 		font-family: $mainFont, sans-serif; 
 		font-size: 3em;
-		padding: 135px 0px 20px 30px;
+		padding: 130px 0px 20px 0px;
 		z-index: 2;
 		position: relative;
 		color: white;
-		@extend .col-sm-8, .col-sm-offset-1;
+		//@extend .col-sm-8, .col-sm-offset-1;
+		@extend .container;
 		.field-label {
 			display:none;
 		}
+		.field-item  {
+			@extend .col-sm-8;
+		}
 	}
+	@media(max-width:767px) {
+		.field-name-title-field {
+			font-size: 2rem;
+			padding: 100px 0px 20px 20px;
 
+		}
+	}
 }
 
 .node-type-exploration {
