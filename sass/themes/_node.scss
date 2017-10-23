@@ -86,6 +86,7 @@ article.node {
 	}
 	.field-name-field-individu{
 		font-weight:700;
+		display:block;
 	}
 
 }
@@ -237,7 +238,17 @@ article.node {
 	}
 }
 
-
+.field-name-field-statut-individu {
+	.field-item {
+		display:inline-block;
+	}
+	.field-name-field-site-internet, .field-name-field-e-mail {
+		font-size:$fontSizeContent-big;
+	}
+	h2.title {
+		font-size: $fontSizeTitle-normal;
+	}
+}
 // Node Exploration 
 .node-type-exploration {
 	// .field-name-field-image {
