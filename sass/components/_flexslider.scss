@@ -14,7 +14,13 @@
   text-shadow: 1px 1px 3px #fff;
   color:#000;
 }
+
 /* Espacement des tuiles Collection en page d'accueil */
-.flexslider .slides > li .views-field-field-image {
+.flexslider .slides > li {
+  .views-field-field-image,
+  .views-field-title,
+  .views-field-field-createur,
+  .views-field-field-type-oeuvre {
     padding: 0 20px 0 0;
+  }
 }
