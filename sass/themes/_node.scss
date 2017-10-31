@@ -88,7 +88,7 @@ article.node {
 		display:inline;
 	}
 	.field-item {
-		display:block;
+		display:inline;
 		margin-bottom:0px !important;
 	}
 	.field-collection-view-links {
@@ -100,6 +100,12 @@ article.node {
 	}
 
 }
+
+.node-fiche-collection .field-name-field-auteur-1 .field-items .field-item {
+    display:block;
+    margin-bottom:0px !important;
+  }
+
 
 // About 
 .page-node-346, .page-node-373 {
