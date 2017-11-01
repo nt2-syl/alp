@@ -75,10 +75,12 @@
 .not-logged-in .region-sidebar-first .views-exposed-form .views-exposed-widget .form-submit {
   top: 0px;
 }
-.not-logged-in .region-navigation .views-exposed-form .views-exposed-widget .form-submit {
-  top: 10px;
-}
-.logged-in .region-sidebar-first .views-exposed-form .views-exposed-widget .form-submit,
-.logged-in .region-navigation .views-exposed-form .views-exposed-widget .form-submit {
+.logged-in .region-sidebar-first .views-exposed-form .views-exposed-widget .form-submit {
   top: -10px;
+}
+.not-logged-in .region-navigation .views-exposed-form .views-exposed-widget .form-submit {
+  top: -10px;
+}
+.logged-in .region-navigation .views-exposed-form .views-exposed-widget .form-submit {
+  top: 10px;
 }
