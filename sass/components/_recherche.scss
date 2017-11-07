@@ -84,3 +84,17 @@
 .logged-in .region-navigation .views-exposed-form .views-exposed-widget .form-submit {
   top: 0;
 }
+/* Loupe sur Collection */
+.page-collection.not-logged-in .region-sidebar-first .views-exposed-form .views-exposed-widget .form-submit {
+  top: 0;
+}
+.page-collection.logged-in .region-sidebar-first .views-exposed-form .views-exposed-widget .form-submit {
+  top: -10px;
+}
+.page-collection.not-logged-in .region-navigation .views-exposed-form .views-exposed-widget .form-submit {
+  top: 5px;
+}
+.page-collection.logged-in .region-navigation .views-exposed-form .views-exposed-widget .form-submit {
+  top: -10px;
+}
+
