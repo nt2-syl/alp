@@ -72,7 +72,8 @@ article.node {
 }
 
 
-.field-name-field-auteur-1, .field-name-field-responsable {
+.field-name-field-auteur-1,
+.field-name-field-responsable {
 	font-size: $fontSizeTitle-small ;
 	.field-collection-view {
 		border:none;
@@ -82,7 +83,7 @@ article.node {
 	}
 	.field-items {
 		display: inline-block;
-		line-height: 0rem;
+		/*line-height: 0rem;*/
 	}
 	.field-items, .field {
 		display:inline;
@@ -94,17 +95,28 @@ article.node {
 	.field-collection-view-links {
 		display:none;
 	}
-	.field-name-field-individu{
+	.field-name-field-individu {
 		font-weight:700;
 		display:block;
 	}
 
 }
 
+.field-collection-item-field-createur {
+  .field-name-field-individu {
+    font-weight:700;
+    display:block;
+  }
+}
+
 .node-fiche-collection .field-name-field-auteur-1 .field-items .field-item {
     display:block;
     margin-bottom:0px !important;
   }
+
+.node-type-fiche-collection .field-name-field-citation-biblio .field-label {
+  margin-bottom:0;
+}
 
 
 // About 
