@@ -126,6 +126,11 @@ article.node {
   margin-bottom: 2rem;
 }
 
+.field-name-field-ref-biblio .node-biblio header,
+.field-name-field-ref-biblio .node-biblio footer {
+  display: none;
+}
+
 // About 
 .page-node-346, .page-node-373 {
 	article {
