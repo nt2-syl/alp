@@ -5,7 +5,7 @@ article.node {
 	}
 }
 
-// Acutalites 
+// Actualites et + 
 .node-type-actualite, .node-type-archeologie, .node-type-exploration {
 	.region-header {
 	    position: relative;
@@ -286,8 +286,9 @@ article.node {
 }
 
 .field-name-field-statut-individu {
+    /* Si statuts multiples, ne pas mettre sur une même ligne */
 	.field-item {
-		display:inline-block;
+		display:block;
 	}
 	.field-name-field-site-internet, .field-name-field-e-mail {
 		font-size:$fontSizeContent-big;
