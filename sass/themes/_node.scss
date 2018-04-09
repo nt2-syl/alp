@@ -130,6 +130,13 @@ article.node {
 .field-name-field-ref-biblio .node-biblio footer {
   display: none;
 }
+/* Override biblio.css (Biblio Module provides its own style instead of using the stylesheet)
+*/
+.biblio-title {
+  font-family: "brandon-grotesque", sans-serif !important;
+  color: #3B495A !important;
+}
+
 
 // About 
 .page-node-346, .page-node-373 {
