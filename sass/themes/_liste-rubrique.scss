@@ -24,6 +24,12 @@
 		color:$secondColor;
 		font-family: $subFont, sans-serif;
 		font-size: $fontSizeTitle-extrasmall;
-
 	}
+}
+/* Sur la liste Equipe, graphiquement, 
+   le champ titre correspond au nom de l'individu, 
+   et le champ individu correspond au resume */
+
+.view-liste-equipe-alp .field_individu {
+  font-size: $fontSizeContent-shame;
 }

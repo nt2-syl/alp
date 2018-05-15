@@ -108,6 +108,17 @@ article.node {
     display:block;
   }
 }
+/* Grossir la taille des createurs sur la Fiche de collection */
+.node-type-fiche-collection {
+  .field-collection-item-field-createur {
+    .field-name-field-individu {
+      font-size: 20px;
+    }
+    .field-name-field-statut-individu-createur {
+      font-size: 16px;
+    }
+  }
+}
 
 .node-fiche-collection .field-name-field-auteur-1 .field-items .field-item {
     display:block;
@@ -326,3 +337,10 @@ article.node {
   }
 }
 
+/* Separer les rangees possedant des images */
+.view-section-explorations,
+.view-liste-equipe-alp {
+  .row {
+    margin-bottom: 2em;
+  }
+}
