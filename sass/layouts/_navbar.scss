@@ -55,10 +55,7 @@
       float: left;
     }
     li > a {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      padding-left: 15px;
-      padding-right: 15px;
+      padding: 15px;
       line-height: 20px;
       position: relative;
       display: block;
@@ -66,4 +63,13 @@
   }
 }
 
-/*test*/
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #block-superfish-1 {
+    display: none;
+  }
+}
