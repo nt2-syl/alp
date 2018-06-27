@@ -75,6 +75,13 @@ h1.page-header {
   border-bottom: 1px solid $greyLightColor;
   }
 }
+.view-liste-chercheurs,
+.view-liste-collaborateurs {
+  img {
+    float: right;
+    border-radius: 50%;
+  }
+}
 
 .date-display-single, .field_created, .field-name-field-date-actualite, .date-display-range{
 	font-family: $subFont, sans-serif;
