@@ -64,10 +64,16 @@ h1.page-header {
 	margin-top:25px;
 }
 
-.view-section-archeologie .views-row, .view-seection-actualites .views-row , .view-section-entretiens .views-row {
-	margin-top:15px;
-	padding-bottom:15px;
-	border-bottom: 1px solid $greyLightColor;
+.view-section-archeologie, 
+.view-seection-actualites, 
+.view-section-entretiens,
+.view-liste-chercheurs,
+.view-liste-collaborateurs {
+  .views-row {
+  margin-top:15px;
+  padding-bottom:15px;
+  border-bottom: 1px solid $greyLightColor;
+  }
 }
 
 .date-display-single, .field_created, .field-name-field-date-actualite, .date-display-range{
