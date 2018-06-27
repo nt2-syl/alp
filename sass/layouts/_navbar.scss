@@ -37,8 +37,16 @@
 
 /*=== SUPERFISH MENU ===*/
 @media (min-width: 768px) {
+  #block-superfish-1 {
+    float: left;
+    width: 76%;
+    position: absolute;
+    top: 18px;
+    right: 0;
+  }
   #superfish-1 {
     font-family: "brandon-grotesque", sans-serif;
+    padding-top: 15px;
     a {
     font-size: 1.4em;
     color: white;
@@ -49,6 +57,8 @@
     li > a {
       padding-top: 15px;
       padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
       line-height: 20px;
       position: relative;
       display: block;
