@@ -31,4 +31,30 @@
 .navbar-nav li a {
 	font-size:1em;
 }
+
+
+
+
 /*=== END NAVBAR ===*/
+
+/*=== SUPERFISH MENU ===*/
+@media (min-width: 768px) {
+  #superfish-1 {
+    font-family: "brandon-grotesque", sans-serif;
+    a {
+    font-size: 1.4em;
+    color: white;
+    }
+    li {
+      float: left;
+    }
+    li > a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      line-height: 20px;
+      position: relative;
+      display: block;
+    }
+  }
+}
+
