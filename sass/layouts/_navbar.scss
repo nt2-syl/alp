@@ -46,7 +46,6 @@
   }
   #superfish-1 {
     font-family: "brandon-grotesque", sans-serif;
-    padding-top: 15px;
     a {
     font-size: 1.4em;
     color: white;
@@ -61,6 +60,26 @@
       display: block;
     }
   }
+  sf-menu li:hover > ul, .sf-menu li.sfHover > ul {
+    left: 0;
+    top: 4.5em;
+    border-radius: n;
+  }
+  .sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
+    background: #3B495A;
+    padding: 0px 0px 9px 0 !important;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
+    top: 2.50em;
+    background-position: 0 -100px;
+  }
+  .sf-sub-indicator {
+    background: url('../images/arrows-ffffff.png') no-repeat 0px 0px;
+    right: 50%;
+  }
+
 }
 
 @media (min-width: 768px) {
