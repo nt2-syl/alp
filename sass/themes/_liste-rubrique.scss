@@ -43,6 +43,13 @@
     font-size: $fontSizeContent-shame;
   }
 }
+.view-liste-chercheurs,
+.view-liste-collaborateurs {
+  .field_title {
+    padding-bottom: 1em;
+  }
+}
+
 
 /* Menu - Nolink utilise pour les menus deroulants */
 .sf-menu span.nolink,
