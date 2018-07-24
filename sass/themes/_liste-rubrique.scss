@@ -45,7 +45,8 @@
 }
 
 /* Menu - Nolink utilise pour les menus deroulants */
-.sf-menu span.nolink {
+.sf-menu span.nolink,
+#navbar-collapse .nolink {
     padding: 15px;
     line-height: 20px;
     position: relative;
@@ -53,3 +54,4 @@
     font-size: 1.4em;
     color: white;
 }
+
