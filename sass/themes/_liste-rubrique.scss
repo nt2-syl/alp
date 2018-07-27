@@ -26,10 +26,19 @@
 		font-size: $fontSizeTitle-extrasmall;
 	}
 }
+
 /* Sur la liste Equipe, graphiquement, 
    le champ titre correspond au nom de l'individu, 
    et le champ individu correspond au resume */
 
 .view-liste-equipe-alp .field_individu {
   font-size: $fontSizeContent-shame;
+}
+
+/* Vues dans Quicktabs */
+.view-liste-collaborateurs,
+.view-liste-chercheurs {
+  .field_resume {
+    font-size: $fontSizeContent-shame;
+  }
 }
