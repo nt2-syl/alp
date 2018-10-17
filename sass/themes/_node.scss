@@ -55,6 +55,7 @@ article.node {
 	}
 	.field-collection-container {
 		@extend .col-sm-12;
+		padding: 30px 15px;
 	}
 	.field-name-body {
 		font-size:$fontSizeContent-big;
