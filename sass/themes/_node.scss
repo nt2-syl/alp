@@ -54,17 +54,17 @@ article.node {
 		@extend .row;
 	}
 	.field-collection-container {
-		@extend .col-md-8;
+		@extend .col-sm-12;
 	}
 	.field-name-body {
 		font-size:$fontSizeContent-big;
-		@extend .col-md-8,.col-sm-10;
+		@extend .col-sm-12;
 	}
 	.field-name-field-citation-biblio {
-		@extend .col-sm-8,.col-sm-10;
+		@extend .col-sm-12;
 	}
 	.field-name-field-ref-biblio {
-		@extend .col-sm-8,.col-sm-10;
+		@extend .col-sm-12;
 	}
 	.action-links {
 		display:none;
