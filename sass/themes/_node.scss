@@ -275,6 +275,11 @@ article.node {
 		@extend .col-sm-4;
 	}
 }
+/* Fixer la hauteur des items de la grille */
+.view-article-cahier-vs-cahier .col-sm-4 {
+	min-height: 450px;
+}
+
 
 // NODE 
 .node-type-entree-carnet {
@@ -347,7 +352,7 @@ article.node {
 }
 
 /* Articles de cahier */
-.view-article-de-cahier-sidebar.view-display-id-block .views-field-title {
+.view-article-de-cahier-sidebar.view-display-id-block > .views-field-title {
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -355,3 +360,4 @@ article.node {
 .view-article-de-cahier-sidebar.view-display-id-block_1 .views-row {
   margin-bottom: 25px;
 }
+
