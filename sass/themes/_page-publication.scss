@@ -16,8 +16,10 @@
     font-size: $fontSizeTitle-small;
   }
   .field-name-field-date-publication {
-    font-size: $fontSizeTitle-small;
-    color: white;
+    .date-display-single {
+      font-size: $fontSizeTitle-small;
+      color: white;
+    }
   }
   .field-name-field-directeur-1,
   .field-name-field-responsable {
