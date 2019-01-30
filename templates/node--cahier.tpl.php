@@ -110,8 +110,8 @@
   <div class="header-image" style='background-image:url("<?php print $image_url ?>"); background-repeat:repeat; background-size: cover;'>
     <div class="background-layer">
       <div class="container">
-        <div><?php print render($content['field_date_publication']); ?></div>
         <div><?php print render($content['field_no_cahier']); ?></div>
+        <div><?php print render($content['field_date_publication']); ?></div>
         <h1 class="page-header"><?php print $title; ?></h1>
         <div><?php print render($content['field_directeur_1']); ?></div>
         <div><?php print render($content['field_resume']); ?></div>
