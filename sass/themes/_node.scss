@@ -5,6 +5,11 @@ article.node {
 	}
 }
 
+.field-name-body img {
+  max-width: 100%;
+  height: auto;
+}
+
 // Actualites et + 
 .node-type-actualite, .node-type-archeologie, .node-type-exploration, .node-type-terminologie {
 	.region-header {
