@@ -351,14 +351,6 @@ article.node {
   }
 }
 
-/* Cahier */
-.views-label-field-directeur-1 {
-  display: inline-block;
-  vertical-align: top;
-}
-.views-label-field-directeur-1  .field-content {
-  display: inline-block;
-}
 
 /* Articles de cahier */
 .view-article-de-cahier-sidebar.view-display-id-block .views-field-title {
@@ -379,3 +371,13 @@ article.node {
   font-size: 1.2rem;
   padding-bottom: 2rem;
 }
+
+/* Cahier */
+.views-label-field-directeur-1 .views-label-field-directeur-1 {
+  display: inline-block;
+  vertical-align: top;
+}
+.views-label-field-directeur-1 .field-content {
+  display: inline-block;
+}
+
