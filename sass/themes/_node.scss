@@ -351,8 +351,17 @@ article.node {
   }
 }
 
+/* Cahier */
+.views-label-field-directeur-1 {
+  display: inline-block;
+  vertical-align: top;
+}
+.views-label-field-directeur-1  .field-content {
+  display: inline-block;
+}
+
 /* Articles de cahier */
-.view-article-de-cahier-sidebar.view-display-id-block > .views-field-title {
+.view-article-de-cahier-sidebar.view-display-id-block .views-field-title {
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -360,4 +369,13 @@ article.node {
 .view-article-de-cahier-sidebar.view-display-id-block_1 .views-row {
   margin-bottom: 25px;
 }
+.view-article-de-cahier-sidebar .views-field-view .views-field-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
+/* credits */
+.node-type-cahier .field-name-field-credits {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
