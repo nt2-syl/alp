@@ -91,11 +91,16 @@ h2.block-title {
 	font-size:$fontSizeTitle-big;
 }
 
-
+/* Largeur Blocs */
+/* Semi-largeur */
+#block-views-accueil-cahier-recherche-block {
+  @extend .col-sm-6;
+}
 #block-views-accueil-carnet-recherche-block {
-	@extend .col-sm-12;
+  @extend .col-sm-6;
 }
 
+/* Pleine largeur */
 #block-views-accueil-entretiens-block {
 	@extend .col-sm-12;
 }
@@ -118,6 +123,17 @@ h2.block-title {
 		@extend .col-sm-12;
 	}
 }
+
+ #block-views-accueil-carnet-recherche-block, 
+ #block-views-accueil-cahier-recherche-block {
+   min-height: 440px;
+ }
+ #block-views-accueil-carnet-recherche-block {
+  float: left;
+ }
+ #block-views-accueil-cahier-recherche-block {
+ }
+
 
 .front {
 	.field-content p {
