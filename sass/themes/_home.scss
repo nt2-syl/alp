@@ -124,15 +124,18 @@ h2.block-title {
 	}
 }
 
- #block-views-accueil-carnet-recherche-block, 
- #block-views-accueil-cahier-recherche-block {
-   min-height: 440px;
- }
- #block-views-accueil-carnet-recherche-block {
+#block-views-accueil-carnet-recherche-block, 
+#block-views-accueil-cahier-recherche-block {
+  min-height: 440px;
+}
+.view-accueil-carnet-recherche .view-content {
+  min-height: 312px;
+}
+#block-views-accueil-carnet-recherche-block {
   float: left;
- }
- #block-views-accueil-cahier-recherche-block {
- }
+}
+#block-views-accueil-cahier-recherche-block {
+}
 
 
 .front {
