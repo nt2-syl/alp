@@ -106,6 +106,9 @@ article.node {
 		font-weight:700;
 		display:block;
 	}
+  .field-name-field-ref-biblio {
+    margin-bottom: 0;
+  }
 
 }
 
@@ -136,10 +139,23 @@ article.node {
   margin-bottom:0;
   margin-top:0;
 }
+.node-type-fiche-collection .field-name-field-ref-biblio .field-item {
+  margin-bottom: 0;
+}
+
+/* Fiche Collection : Citation */
 .field-name-field-citation .field-label,
 .field-name-field-citation .field-items {
   font-size: 1.2rem;
 }
+/* Ajouter Separateur */
+.field-name-field-citation p {
+  border-bottom: 1px solid #eee;
+    padding: 0 0 10px;
+}
+
+
+/* Fiche Collection : Bibliographie */
 .field-name-field-ref-biblio {
   margin-bottom: 2rem;
 }
