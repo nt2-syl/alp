@@ -158,6 +158,9 @@ article.node {
 /* Fiche Collection : Bibliographie */
 .field-name-field-ref-biblio {
   margin-bottom: 2rem;
+  .field-label {
+    margin: 0;
+  }
 }
 
 .field-name-field-ref-biblio .node-biblio header,
@@ -410,7 +413,13 @@ article.node {
 }
 
 /* Fiche Collection */
-/* Champ dans la sidebar droite */
+/* Champs dans la sidebar droite */
+
+/* Espacement entre les champs */
+section.block-cck-blocks {
+    margin-bottom: 0.66rem;
+}
+
 .region-sidebar-second {
   .field-collection-container .field-items .field-item {
     margin-bottom: 0;
