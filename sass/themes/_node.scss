@@ -392,3 +392,22 @@ article.node {
   display: inline-block;
 }
 
+/* Fiche Collection */
+/* Champ dans la sidebar droite */
+.region-sidebar-second {
+  .field-collection-container .field-items .field-item {
+    margin-bottom: 0;
+  }
+  .field-collection-view {
+    padding: 0 0 0em;
+  }
+  .field-name-field-site-internet {
+    margin-top: 0;
+    font-size: inherit;
+  }
+}
+
+#block-cck-blocks-field-annee-oeuvre .date-display-single {
+  font-size: 1rem;
+  color: #333333;
+}
