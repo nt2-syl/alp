@@ -420,12 +420,11 @@ article.node {
 /* Fiche Collection */
 /* Champs dans la sidebar droite */
 
-/* Espacement entre les champs */
-section.block-cck-blocks {
-    margin-bottom: 0.66rem;
-}
-
 .region-sidebar-second {
+  /* Espacement entre les champs */
+  section.block-cck-blocks {
+    margin-bottom: 0.66rem;
+  }
   .field-collection-container .field-items .field-item {
     margin-bottom: 0;
   }
