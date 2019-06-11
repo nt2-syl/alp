@@ -148,10 +148,16 @@ article.node {
 .node-type-fiche-collection .field-name-field-createur .field-item {
   margin-bottom: 1rem;
 }
+/*
 .node-type-fiche-collection .field-name-field-createur .field-items > .field-item:nth-last-child(1) {
   margin-bottom: 0rem;
+}*/
+.region-sidebar-second .field-collection-container .field-item .field-item {
+    margin-bottom: 0;
 }
-
+.node-type-fiche-collection .field-name-field-createur .field-item .field-item {
+    margin-bottom: 1rem;
+}
 
 /* Fiche Collection : Citation */
 .field-name-field-citation .field-label,
