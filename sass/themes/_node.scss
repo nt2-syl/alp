@@ -143,6 +143,16 @@ article.node {
   margin-bottom: 0;
 }
 
+/* Fiche Collection : Auteurs */
+/* Espace entre les auteurs */
+.node-type-fiche-collection .field-name-field-createur .field-item {
+  margin-bottom: 1rem;
+}
+.node-type-fiche-collection .field-name-field-createur .field-item:last-child {
+  margin-bottom: 0rem;
+}
+
+
 /* Fiche Collection : Citation */
 .field-name-field-citation .field-label,
 .field-name-field-citation .field-items {
@@ -457,6 +467,9 @@ article.node {
 }
 
 /* Entrees de carnet */
+.node-type-entree-carnet .field-name-field-date-publication {
+  padding-top: 1em;
+}
 .node-type-entree-carnet .field-name-field-image {
   padding-top: 2em;
 }
