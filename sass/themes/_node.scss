@@ -148,7 +148,7 @@ article.node {
 .node-type-fiche-collection .field-name-field-createur .field-item {
   margin-bottom: 1rem;
 }
-.node-type-fiche-collection .field-name-field-createur .field-item:last-child {
+.node-type-fiche-collection .field-name-field-createur .field-items > .field-item:nth-last-child(1) {
   margin-bottom: 0rem;
 }
 
