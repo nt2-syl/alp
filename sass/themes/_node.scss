@@ -434,7 +434,7 @@ article.node {
   display: inline-block;
 }
 
-/* Fiche Collection */
+/* Fiche Collection - TODO reporter dans _collection.scss */
 /* Champs dans la sidebar droite */
 
 .region-sidebar-second {
@@ -477,12 +477,19 @@ article.node {
 .node-type-entree-carnet .field-name-field-date-publication {
   padding-top: 1em;
 }
-.node-type-entree-carnet .field-name-field-image {
-  padding-top: 2em;
-}
+
 .node-type-entree-carnet .view-entr-e-de-carnet-sidebar- .field-name-field-individu {
   margin-top: 0;
 }
 .view-entr-e-de-carnet-sidebar- .views-row {
   margin-bottom: 1rem;
+}
+
+/* Images Vedette - Entree de carnet, Article Cahier */
+.node-type-article-cahier,
+.node-type-entree-carnet {
+  .field-name-field-image {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
 }
