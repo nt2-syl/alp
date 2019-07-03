@@ -489,6 +489,11 @@ article.node {
   padding-top: 1rem;
 }
 
+/* Espacer Champ Entete*/
+.node-type-actualite .field-name-body {
+  padding-top: 1rem;
+}
+
 /* Images Vedette - Entree de carnet, Article Cahier */
 .node-type-article-cahier,
 .node-type-entree-carnet {
@@ -496,4 +501,10 @@ article.node {
     padding-top: 2em;
     padding-bottom: 2em;
   }
+}
+
+/* Corriger Explorations */
+.node-type-exploration article {
+  margin-left: 0;
+  margin-right: 0;
 }
