@@ -503,8 +503,14 @@ article.node {
   }
 }
 
-/* Corriger Explorations */
-.node-type-exploration article {
-  margin-left: 0;
-  margin-right: 0;
+/* Explorations : Ajouter pour chaque champ supplementaire */
+.node-type-exploration {
+  .field-name-field-citation-texte {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .field-name-field-ref-biblio .node-biblio {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
